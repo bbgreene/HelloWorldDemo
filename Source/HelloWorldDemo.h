@@ -84,7 +84,7 @@ public:
     void resized() override
     {
         helloWorldLabel.setBounds (152, 80, 296, 48);
-        quitButton.setBounds (getWidth() - 176, getHeight() - 60, 120, 32);
+        quitButton.setBounds (getWidth() - 176, getHeight() - 80, 120, 32);
 
         internalPath.clear();
         internalPath.startNewSubPath (136.0f, 80.0f);
@@ -99,7 +99,7 @@ public:
 
 private:
     //==============================================================================
-    Label helloWorldLabel { {}, TRANS("Hello World!") };
+    Label helloWorldLabel { {}, TRANS("Hello Lads!") };
     TextButton quitButton { TRANS("Quit") };
     Path internalPath;
 
