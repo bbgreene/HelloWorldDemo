@@ -74,7 +74,7 @@ public:
     {
         g.fillAll (Colour (0xffc1d0ff));
 
-        g.setColour (Colours::red);
+        g.setColour (Colours::green);
         g.fillPath (internalPath);
 
         g.setColour (Colour (0xff6f6f6f));
