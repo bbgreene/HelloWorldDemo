@@ -60,7 +60,7 @@ public:
         helloWorldLabel.setJustificationType (Justification::centred);
         helloWorldLabel.setEditable (false, false, false);
         helloWorldLabel.setColour (Label::textColourId, Colours::black);
-        helloWorldLabel.setColour (TextEditor::textColourId, Colours::black);
+        helloWorldLabel.setColour (TextEditor::textColourId, Colours::blue);
         helloWorldLabel.setColour (TextEditor::backgroundColourId, Colour (0x00000000));
 
         addAndMakeVisible (quitButton);
